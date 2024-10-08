@@ -26,64 +26,83 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- ! PAGE HEADER -->
-    <!-- # HEADER NAV -->
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
-      data-bs-theme="dark"
-    >
-      <div class="container-fluid">
-        <!-- logo -->
-        <a class="navbar-brand" href="#">
-          <img src="./img/duck.png" alt="logo" class="logo-img" />
-        </a>
+    <!-- ! HEADER -->
+    <header>
+      <!-- # HEADER NAV -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./img/duck.png" alt="logo" class="logo-img" />
+          </a>
 
-        <!-- navbar button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <!-- navbar button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- navbar content-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- nav links -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Catalogo Libri
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Anagrafica Utenti</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Storico Prestiti</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Help</a>
-            </li>
-          </ul>
+          <!-- navbar content-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- nav links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Catalogo Libri
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Anagrafica Utenti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Storico Prestiti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+            </ul>
 
-          <!-- search bar -->
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2 text-bg-light"
-              type="search"
-              placeholder="Cerca..."
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-light" type="submit">Cerca</button>
-          </form>
+            <!-- search bar -->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 text-bg-light"
+                type="search"
+                placeholder="Cerca..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">Cerca</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+
+    <!-- ! MAIN -->
+    <div class="container">
+      <main>
+        <!-- # SECTION -->
+        <div class="d-flex justify-content-between align-items-center my-5">
+          <!-- page title -->
+          <h1 class="text-secondary">Catalogo Libri</h1>
+          <!--  button -->
+          <button type="button" class="btn btn-primary btn-lg">
+            Aggiungi Libro
+          </button>
+        </div>
+
+        <!-- # SECTION -->
+      </main>
+    </div>
 
     <!-- * JS BOOTSTRAP * -->
     <script
