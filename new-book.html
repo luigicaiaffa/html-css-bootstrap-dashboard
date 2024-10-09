@@ -131,23 +131,40 @@
                 id="author-last-name"
               />
             </div>
+          </div>
 
-            <!-- book title -->
-            <div class="my-3">
-              <label for="book-title" class="form-label fw-semibold fs-5"
-                >Titolo</label
-              >
-              <input
-                type="text"
-                id="book-title"
-                class="form-control"
-                placeholder="Inserisci il titolo del libro"
-                aria-describedby="title-help-block"
-              />
-              <div id="title-help-block" class="form-text">
-                Titolo versione Italiana
-              </div>
+          <!-- book title -->
+          <div class="my-3">
+            <label for="book-title" class="form-label fw-semibold fs-5"
+              >Titolo</label
+            >
+            <input
+              type="text"
+              id="book-title"
+              class="form-control"
+              placeholder="Inserisci il titolo del libro"
+              aria-describedby="title-help-block"
+            />
+            <div id="title-help-block" class="form-text">
+              Titolo versione Italiana
             </div>
+          </div>
+
+          <!-- book genre -->
+          <div>
+            <label for="book-genre" class="form-label fw-semibold fs-5"
+              >Genere</label
+            >
+            <select
+              class="form-select"
+              id="book-genre"
+              aria-label="Default select example"
+            >
+              <option value="" selected>Scegli il genere</option>
+              <option value="1">Uno</option>
+              <option value="2">Due</option>
+              <option value="3">Tre</option>
+            </select>
           </div>
         </form>
       </section>
