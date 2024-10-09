@@ -93,7 +93,65 @@
     </header>
 
     <!-- ! MAIN -->
-    <main></main>
+    <main>
+      <!-- # PAGE TITLE -->
+      <div class="container my-4">
+        <h1>Nuovo Libro</h1>
+      </div>
+
+      <!-- # PAGE CONTENT -->
+      <section>
+        <!-- form -->
+        <form class="container">
+          <div class="row">
+            <!-- author first name -->
+            <div class="col">
+              <label for="author-first-name" class="form-label fw-semibold fs-5"
+                >Nome Autore</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Inserisci il nome dell'Autore"
+                aria-label="First name"
+                id="author-first-name"
+              />
+            </div>
+
+            <!-- author last name -->
+            <div class="col">
+              <label for="author-last-name" class="form-label fw-semibold fs-5"
+                >Cognome Autore</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Inserisci il cognome dell'Autore"
+                aria-label="Last name"
+                id="author-last-name"
+              />
+            </div>
+
+            <!-- book title -->
+            <div class="my-3">
+              <label for="book-title" class="form-label fw-semibold fs-5"
+                >Titolo</label
+              >
+              <input
+                type="text"
+                id="book-title"
+                class="form-control"
+                placeholder="Inserisci il titolo del libro"
+                aria-describedby="title-help-block"
+              />
+              <div id="title-help-block" class="form-text">
+                Titolo versione Italiana
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
 
     <!-- * JS BOOTSTRAP * -->
     <script
